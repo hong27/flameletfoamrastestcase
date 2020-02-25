@@ -1,0 +1,98 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2.4.x                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : 2.4.x-2b147f41daf9
+Exec   : flameletFoamPost -latestTime
+Date   : Aug 16 2019
+Time   : 22:13:34
+Host   : "compute-3-1.local"
+PID    : 26767
+Case   : /home/z5146499/OpenFOAM/flameletFoam/tutorial/pilotedDiffusionFlame/ras
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+Creating combustion model
+
+Selecting combustion model YSLFModel<rhoThermoCombustion>
+Selecting thermodynamics package 
+{
+    type            heRhoThermo;
+    mixture         reactingMixture;
+    transport       sutherland;
+    thermo          janaf;
+    energy          sensibleEnthalpy;
+    equationOfState perfectGas;
+    specie          specie;
+}
+
+Selecting chemistryReader chemkinReader
+
+Time = 0.1
+
+Writing field CH4
+Writing field CH2O
+Writing field CH3O
+Writing field H
+Writing field O2
+Writing field H2
+Writing field O
+Writing field OH
+Writing field H2O
+Writing field HO2
+Writing field H2O2
+Writing field C
+Writing field CH
+Writing field CH2
+Writing field CH2(S)
+Writing field CH3
+Writing field CO
+Writing field CO2
+Writing field HCO
+Writing field CH2OH
+Writing field CH3OH
+Writing field C2H
+Writing field C2H2
+Writing field C2H3
+Writing field C2H4
+Writing field C2H5
+Writing field C2H6
+Writing field HCCO
+Writing field CH2CO
+Writing field HCCOH
+Writing field N
+Writing field NH
+Writing field NH2
+Writing field NH3
+Writing field NNH
+Writing field NO
+Writing field NO2
+Writing field N2O
+Writing field HNO
+Writing field CN
+Writing field HCN
+Writing field H2CN
+Writing field HCNN
+Writing field HCNO
+Writing field HOCN
+Writing field HNCO
+Writing field NCO
+Writing field N2
+Writing field AR
+Writing field C3H7
+Writing field C3H8
+Writing field CH2CHO
+Writing field CH3CHO
+Writing field Zeta
+End
+

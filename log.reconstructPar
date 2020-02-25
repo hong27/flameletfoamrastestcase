@@ -1,0 +1,378 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2.4.x                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : 2.4.x-2b147f41daf9
+Exec   : reconstructPar
+Date   : Aug 16 2019
+Time   : 22:13:30
+Host   : "compute-3-1.local"
+PID    : 26765
+Case   : /home/z5146499/OpenFOAM/flameletFoam/tutorial/pilotedDiffusionFlame/ras
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+
+
+Reconstructing fields for mesh region0
+
+Time = 0.01
+
+Reconstructing FV fields
+
+    Reconstructing volScalarFields
+
+        Z
+        rho
+        mut
+        varZ
+        thermo:mu
+        k
+        alphat
+        thermo:psi
+        chi
+        p
+        T
+        epsilon
+        thermo:alpha
+
+    Reconstructing volVectorFields
+
+        U
+
+    Reconstructing surfaceScalarFields
+
+        phi
+
+Reconstructing point fields
+
+No point fields
+
+No lagrangian fields
+
+Reconstructing sets:
+Time = 0.02
+
+Reconstructing FV fields
+
+    Reconstructing volScalarFields
+
+        Z
+        rho
+        mut
+        varZ
+        thermo:mu
+        k
+        alphat
+        thermo:psi
+        chi
+        p
+        T
+        epsilon
+        thermo:alpha
+
+    Reconstructing volVectorFields
+
+        U
+
+    Reconstructing surfaceScalarFields
+
+        phi
+
+Reconstructing point fields
+
+No point fields
+
+No lagrangian fields
+
+Reconstructing sets:
+Time = 0.03
+
+Reconstructing FV fields
+
+    Reconstructing volScalarFields
+
+        Z
+        rho
+        mut
+        varZ
+        thermo:mu
+        k
+        alphat
+        thermo:psi
+        chi
+        p
+        T
+        epsilon
+        thermo:alpha
+
+    Reconstructing volVectorFields
+
+        U
+
+    Reconstructing surfaceScalarFields
+
+        phi
+
+Reconstructing point fields
+
+No point fields
+
+No lagrangian fields
+
+Reconstructing sets:
+Time = 0.04
+
+Reconstructing FV fields
+
+    Reconstructing volScalarFields
+
+        Z
+        rho
+        mut
+        varZ
+        thermo:mu
+        k
+        alphat
+        thermo:psi
+        chi
+        p
+        T
+        epsilon
+        thermo:alpha
+
+    Reconstructing volVectorFields
+
+        U
+
+    Reconstructing surfaceScalarFields
+
+        phi
+
+Reconstructing point fields
+
+No point fields
+
+No lagrangian fields
+
+Reconstructing sets:
+Time = 0.05
+
+Reconstructing FV fields
+
+    Reconstructing volScalarFields
+
+        Z
+        rho
+        mut
+        varZ
+        thermo:mu
+        k
+        alphat
+        thermo:psi
+        chi
+        p
+        T
+        epsilon
+        thermo:alpha
+
+    Reconstructing volVectorFields
+
+        U
+
+    Reconstructing surfaceScalarFields
+
+        phi
+
+Reconstructing point fields
+
+No point fields
+
+No lagrangian fields
+
+Reconstructing sets:
+Time = 0.06
+
+Reconstructing FV fields
+
+    Reconstructing volScalarFields
+
+        Z
+        rho
+        mut
+        varZ
+        thermo:mu
+        k
+        alphat
+        thermo:psi
+        chi
+        p
+        T
+        epsilon
+        thermo:alpha
+
+    Reconstructing volVectorFields
+
+        U
+
+    Reconstructing surfaceScalarFields
+
+        phi
+
+Reconstructing point fields
+
+No point fields
+
+No lagrangian fields
+
+Reconstructing sets:
+Time = 0.07
+
+Reconstructing FV fields
+
+    Reconstructing volScalarFields
+
+        Z
+        rho
+        mut
+        varZ
+        thermo:mu
+        k
+        alphat
+        thermo:psi
+        chi
+        p
+        T
+        epsilon
+        thermo:alpha
+
+    Reconstructing volVectorFields
+
+        U
+
+    Reconstructing surfaceScalarFields
+
+        phi
+
+Reconstructing point fields
+
+No point fields
+
+No lagrangian fields
+
+Reconstructing sets:
+Time = 0.08
+
+Reconstructing FV fields
+
+    Reconstructing volScalarFields
+
+        Z
+        rho
+        mut
+        varZ
+        thermo:mu
+        k
+        alphat
+        thermo:psi
+        chi
+        p
+        T
+        epsilon
+        thermo:alpha
+
+    Reconstructing volVectorFields
+
+        U
+
+    Reconstructing surfaceScalarFields
+
+        phi
+
+Reconstructing point fields
+
+No point fields
+
+No lagrangian fields
+
+Reconstructing sets:
+Time = 0.09
+
+Reconstructing FV fields
+
+    Reconstructing volScalarFields
+
+        Z
+        rho
+        mut
+        varZ
+        thermo:mu
+        k
+        alphat
+        thermo:psi
+        chi
+        p
+        T
+        epsilon
+        thermo:alpha
+
+    Reconstructing volVectorFields
+
+        U
+
+    Reconstructing surfaceScalarFields
+
+        phi
+
+Reconstructing point fields
+
+No point fields
+
+No lagrangian fields
+
+Reconstructing sets:
+Time = 0.1
+
+Reconstructing FV fields
+
+    Reconstructing volScalarFields
+
+        Z
+        rho
+        mut
+        varZ
+        thermo:mu
+        k
+        alphat
+        thermo:psi
+        chi
+        p
+        T
+        epsilon
+        thermo:alpha
+
+    Reconstructing volVectorFields
+
+        U
+
+    Reconstructing surfaceScalarFields
+
+        phi
+
+Reconstructing point fields
+
+No point fields
+
+No lagrangian fields
+
+Reconstructing sets:
+End.
+

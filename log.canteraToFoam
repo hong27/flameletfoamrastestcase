@@ -1,0 +1,82 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2.4.x                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : 2.4.x-2b147f41daf9
+Exec   : canteraToFoam
+Date   : Aug 16 2019
+Time   : 22:11:53
+Host   : "compute-3-1.local"
+PID    : 26736
+Case   : /home/z5146499/OpenFOAM/flameletFoam/tutorial/pilotedDiffusionFlame/ras
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+Creating thermodynamics model
+
+Selecting combustion model YSLFModel<rhoThermoCombustion>
+Selecting thermodynamics package 
+{
+    type            heRhoThermo;
+    mixture         reactingMixture;
+    transport       sutherland;
+    thermo          janaf;
+    energy          sensibleEnthalpy;
+    equationOfState perfectGas;
+    specie          specie;
+}
+
+Selecting chemistryReader chemkinReader
+Reading: "tables/Table_0.csv"
+calculate sensible Enthalpy
+read mixture Fraction from Table
+Reading: "tables/Table_10.csv"
+calculate sensible Enthalpy
+read mixture Fraction from Table
+Reading: "tables/Table_30.csv"
+calculate sensible Enthalpy
+read mixture Fraction from Table
+Reading: "tables/Table_100.csv"
+calculate sensible Enthalpy
+read mixture Fraction from Table
+Reading: "tables/Table_150.csv"
+calculate sensible Enthalpy
+read mixture Fraction from Table
+Reading: "tables/Table_200.csv"
+calculate sensible Enthalpy
+read mixture Fraction from Table
+Reading: "tables/Table_250.csv"
+calculate sensible Enthalpy
+read mixture Fraction from Table
+Reading: "tables/Table_300.csv"
+calculate sensible Enthalpy
+read mixture Fraction from Table
+Reading: "tables/Table_325.csv"
+calculate sensible Enthalpy
+read mixture Fraction from Table
+Reading: "tables/Table_350.csv"
+calculate sensible Enthalpy
+read mixture Fraction from Table
+Reading: "tables/Table_375.csv"
+calculate sensible Enthalpy
+read mixture Fraction from Table
+Reading: "tables/Table_400.csv"
+calculate sensible Enthalpy
+read mixture Fraction from Table
+Reading: "tables/Table_420.csv"
+calculate sensible Enthalpy
+read mixture Fraction from Table
+lines = 100
+columns = 55
+End
+
